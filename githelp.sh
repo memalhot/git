@@ -26,8 +26,8 @@ git config --global user.name $1
 git config --global user.email $2
 
 echo " "
-echo -e "${BLACK}this next step will create your key to connect with github, when prompted"
-echo -e "${RED}press enter ${BLACK} for each prompt, or choose where you want to save your key${NC}"
+echo "this next step will create your key to connect with github, when prompted"
+echo -e "${RED}press enter for each prompt, ${NC}or choose where you want to save your key"
 echo " "
 
 #generate key to link w github
