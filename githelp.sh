@@ -12,6 +12,7 @@ EXPECTED_ARGS=2
 echo "you must have a github account to continue with this process"
 echo -e "if you don't, press ctrl-c, create an account here:${BLUE} https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github${NC}"
 echo "and rerun this script once you have created one"
+echo " "
 
 #check if student provides both name and email
 if [ $# -ne $EXPECTED_ARGS ]; then
